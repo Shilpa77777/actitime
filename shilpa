@@ -1,2 +1,4 @@
 driver.findelement By.id
 driver.findelement By.name
+driver.manage().window().maximize();
+deiver.manage().timeouts().implictlywait(duration.ofseconds(10));
